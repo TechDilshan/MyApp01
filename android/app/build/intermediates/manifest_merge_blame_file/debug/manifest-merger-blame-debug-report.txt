@@ -1,0 +1,405 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myapp01"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_auth] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+12-->[:react-native-firebase_auth] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:react-native-firebase_auth] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+13-->[:react-native-firebase_auth] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+14    <!--
+15    This manifest file is used only by Gradle to configure debug-only capabilities
+16    for React Native Apps.
+17    -->
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+18-->[com.facebook.react:react-android:0.74.3] /Users/macbookair2020/.gradle/caches/transforms-4/d0e7875bc8c84d20e3e97439c9ba0e8a/transformed/jetified-react-android-0.74.3-debug/AndroidManifest.xml:16:5-78
+18-->[com.facebook.react:react-android:0.74.3] /Users/macbookair2020/.gradle/caches/transforms-4/d0e7875bc8c84d20e3e97439c9ba0e8a/transformed/jetified-react-android-0.74.3-debug/AndroidManifest.xml:16:22-75
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:25:5-79
+19-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:25:22-76
+20    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+20-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:26:5-88
+20-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:26:22-85
+21    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+21-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:27:5-82
+21-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:27:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:26:22-107
+23    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+23-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/macbookair2020/.gradle/caches/transforms-4/fa054b20b318e5c05b42ffff343948d8/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+23-->[com.google.android.recaptcha:recaptcha:18.4.0] /Users/macbookair2020/.gradle/caches/transforms-4/fa054b20b318e5c05b42ffff343948d8/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] /Users/macbookair2020/.gradle/caches/transforms-4/72b47993cdfd19123fa1328496e151cb/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+26        android:name="com.myapp01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] /Users/macbookair2020/.gradle/caches/transforms-4/72b47993cdfd19123fa1328496e151cb/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] /Users/macbookair2020/.gradle/caches/transforms-4/72b47993cdfd19123fa1328496e151cb/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.myapp01.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] /Users/macbookair2020/.gradle/caches/transforms-4/72b47993cdfd19123fa1328496e151cb/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] /Users/macbookair2020/.gradle/caches/transforms-4/72b47993cdfd19123fa1328496e151cb/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:5:5-24:19
+32        android:name="com.myapp01.MainApplication"
+32-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:6:7-38
+33        android:allowBackup="false"
+33-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:10:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /Users/macbookair2020/.gradle/caches/transforms-4/72b47993cdfd19123fa1328496e151cb/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:8:7-41
+38        android:label="@string/app_name"
+38-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:7:7-39
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:9:7-52
+40        android:theme="@style/AppTheme"
+40-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:11:7-38
+41        android:usesCleartextTraffic="true" >
+41-->/Users/macbookair2020/Documents/MyApp01/android/app/src/debug/AndroidManifest.xml:6:9-44
+42        <activity
+42-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:12:7-23:18
+43            android:name="com.myapp01.MainActivity"
+43-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:13:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+44-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:15:9-118
+45            android:exported="true"
+45-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:18:9-32
+46            android:label="@string/app_name"
+46-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:14:9-41
+47            android:launchMode="singleTask"
+47-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:16:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:17:9-51
+49            <intent-filter>
+49-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:19:9-22:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:20:13-65
+50-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:20:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:21:13-73
+52-->/Users/macbookair2020/Documents/MyApp01/android/app/src/main/AndroidManifest.xml:21:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <meta-data
+56-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+57            android:name="app_data_collection_default_enabled"
+57-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+58            android:value="true" />
+58-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+59
+60        <service
+60-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+62            android:directBootAware="true"
+62-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+63            android:exported="false" >
+63-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+64            <meta-data
+64-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+65                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+65-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+68                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+68-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+70            <meta-data
+70-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:37:13-39:85
+71                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+71-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:38:17-139
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:39:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-installations:18.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/cb0dc32c32c7138f1bcd226e62ab1cee/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+74                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+74-->[com.google.firebase:firebase-installations:18.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/cb0dc32c32c7138f1bcd226e62ab1cee/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-installations:18.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/cb0dc32c32c7138f1bcd226e62ab1cee/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-installations:18.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/cb0dc32c32c7138f1bcd226e62ab1cee/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+77                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+77-->[com.google.firebase:firebase-installations:18.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/cb0dc32c32c7138f1bcd226e62ab1cee/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-installations:18.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/cb0dc32c32c7138f1bcd226e62ab1cee/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/2f78ec0360e723953f1d7300bb15535e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+80                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+80-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/2f78ec0360e723953f1d7300bb15535e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/2f78ec0360e723953f1d7300bb15535e/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+83                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+83-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+85        </service>
+86
+87        <provider
+87-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+88            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+88-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+89            android:authorities="com.myapp01.reactnativefirebaseappinitprovider"
+89-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+90            android:exported="false"
+90-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+91            android:initOrder="99" />
+91-->[:react-native-firebase_app] /Users/macbookair2020/Documents/MyApp01/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+92
+93        <activity
+93-->[com.facebook.react:react-android:0.74.3] /Users/macbookair2020/.gradle/caches/transforms-4/d0e7875bc8c84d20e3e97439c9ba0e8a/transformed/jetified-react-android-0.74.3-debug/AndroidManifest.xml:19:9-21:40
+94            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+94-->[com.facebook.react:react-android:0.74.3] /Users/macbookair2020/.gradle/caches/transforms-4/d0e7875bc8c84d20e3e97439c9ba0e8a/transformed/jetified-react-android-0.74.3-debug/AndroidManifest.xml:20:13-77
+95            android:exported="false" />
+95-->[com.facebook.react:react-android:0.74.3] /Users/macbookair2020/.gradle/caches/transforms-4/d0e7875bc8c84d20e3e97439c9ba0e8a/transformed/jetified-react-android-0.74.3-debug/AndroidManifest.xml:21:13-37
+96        <activity
+96-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+97            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+97-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+98            android:excludeFromRecents="true"
+98-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+99            android:exported="true"
+99-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+100            android:launchMode="singleTask"
+100-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+101-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+102            <intent-filter>
+102-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+103-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+105-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+106-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+107
+108                <data
+108-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+109                    android:host="firebase.auth"
+109-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+110                    android:path="/"
+110-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+111                    android:scheme="genericidp" />
+111-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+115            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+115-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+116            android:excludeFromRecents="true"
+116-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+117            android:exported="true"
+117-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+118            android:launchMode="singleTask"
+118-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+119-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+120            <intent-filter>
+120-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+121-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+123-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+124-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+125
+126                <data
+126-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+127                    android:host="firebase.auth"
+127-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+128                    android:path="/"
+128-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+129                    android:scheme="recaptcha" />
+129-->[com.google.firebase:firebase-auth:23.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/4349dc85b52920a166571adc8d850504/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+130            </intent-filter>
+131        </activity>
+132
+133        <property
+133-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:30:9-32:61
+134            android:name="android.adservices.AD_SERVICES_CONFIG"
+134-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:31:13-65
+135            android:resource="@xml/ga_ad_services_config" />
+135-->[com.google.android.gms:play-services-measurement-api:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/1e214b08be78b9661a10bac36d60b84f/transformed/jetified-play-services-measurement-api-22.0.2/AndroidManifest.xml:32:13-58
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+139            android:authorities="com.myapp01.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:21.0.0] /Users/macbookair2020/.gradle/caches/transforms-4/0a99742cc50f31c9288cbc101c8c1df0/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+143
+144        <service
+144-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+145            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+145-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+146            android:enabled="true"
+146-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+147            android:exported="false" >
+147-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+148            <meta-data
+148-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+149                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+149-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+150                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+150-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+151        </service>
+152
+153        <activity
+153-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+154            android:name="androidx.credentials.playservices.HiddenActivity"
+154-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+155            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+155-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+156            android:enabled="true"
+156-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+157            android:exported="false"
+157-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+158            android:fitsSystemWindows="true"
+158-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+159            android:theme="@style/Theme.Hidden" >
+159-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/macbookair2020/.gradle/caches/transforms-4/c26207f2e441cb6500f93bb6c8d3e6f1/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+160        </activity>
+161        <activity
+161-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:23:9-27:75
+162            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+162-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:24:13-93
+163            android:excludeFromRecents="true"
+163-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:25:13-46
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:26:13-37
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:27:13-72
+166        <!--
+167            Service handling Google Sign-In user revocation. For apps that do not integrate with
+168            Google Sign-In, this service will never be started.
+169        -->
+170        <service
+170-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:33:9-37:51
+171            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+171-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:34:13-89
+172            android:exported="true"
+172-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:35:13-36
+173            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+173-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:36:13-107
+174            android:visibleToInstantApps="true" />
+174-->[com.google.android.gms:play-services-auth:21.1.1] /Users/macbookair2020/.gradle/caches/transforms-4/c2fa9ee8dcc019c02c8c03842149950a/transformed/jetified-play-services-auth-21.1.1/AndroidManifest.xml:37:13-48
+175
+176        <activity
+176-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookair2020/.gradle/caches/transforms-4/eb83a488f3f3579e7ee4cffb9424a6e8/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookair2020/.gradle/caches/transforms-4/eb83a488f3f3579e7ee4cffb9424a6e8/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookair2020/.gradle/caches/transforms-4/eb83a488f3f3579e7ee4cffb9424a6e8/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-base:18.3.0] /Users/macbookair2020/.gradle/caches/transforms-4/eb83a488f3f3579e7ee4cffb9424a6e8/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+180
+181        <receiver
+181-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:29:9-33:20
+182            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+182-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:30:13-85
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:31:13-35
+184            android:exported="false" >
+184-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:32:13-37
+185        </receiver>
+186
+187        <service
+187-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:35:9-38:40
+188            android:name="com.google.android.gms.measurement.AppMeasurementService"
+188-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:36:13-84
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:37:13-35
+190            android:exported="false" />
+190-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:38:13-37
+191        <service
+191-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:39:9-43:72
+192            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+192-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:40:13-87
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:41:13-35
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:42:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[com.google.android.gms:play-services-measurement:22.0.2] /Users/macbookair2020/.gradle/caches/transforms-4/2a7555f3d4da2aa98e2a7d8d87ad5cc9/transformed/jetified-play-services-measurement-22.0.2/AndroidManifest.xml:43:13-69
+196
+197        <uses-library
+197-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/macbookair2020/.gradle/caches/transforms-4/b06c94daefe2f17a8c4a17108e4037f9/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+198            android:name="android.ext.adservices"
+198-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/macbookair2020/.gradle/caches/transforms-4/b06c94daefe2f17a8c4a17108e4037f9/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+199            android:required="false" />
+199-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/macbookair2020/.gradle/caches/transforms-4/b06c94daefe2f17a8c4a17108e4037f9/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+200
+201        <meta-data
+201-->[com.google.android.gms:play-services-basement:18.4.0] /Users/macbookair2020/.gradle/caches/transforms-4/913cb885350de4b80f3dac20956fa4b1/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+202            android:name="com.google.android.gms.version"
+202-->[com.google.android.gms:play-services-basement:18.4.0] /Users/macbookair2020/.gradle/caches/transforms-4/913cb885350de4b80f3dac20956fa4b1/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+203            android:value="@integer/google_play_services_version" />
+203-->[com.google.android.gms:play-services-basement:18.4.0] /Users/macbookair2020/.gradle/caches/transforms-4/913cb885350de4b80f3dac20956fa4b1/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+204
+205        <provider
+205-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookair2020/.gradle/caches/transforms-4/9f9a74b2672f01797b9acb9bf182156d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+206            android:name="androidx.startup.InitializationProvider"
+206-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookair2020/.gradle/caches/transforms-4/9f9a74b2672f01797b9acb9bf182156d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+207            android:authorities="com.myapp01.androidx-startup"
+207-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookair2020/.gradle/caches/transforms-4/9f9a74b2672f01797b9acb9bf182156d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+208            android:exported="false" >
+208-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookair2020/.gradle/caches/transforms-4/9f9a74b2672f01797b9acb9bf182156d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+209            <meta-data
+209-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookair2020/.gradle/caches/transforms-4/9f9a74b2672f01797b9acb9bf182156d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+210                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+210-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookair2020/.gradle/caches/transforms-4/9f9a74b2672f01797b9acb9bf182156d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+211                android:value="androidx.startup" />
+211-->[androidx.emoji2:emoji2:1.2.0] /Users/macbookair2020/.gradle/caches/transforms-4/9f9a74b2672f01797b9acb9bf182156d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+212            <meta-data
+212-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookair2020/.gradle/caches/transforms-4/233bf64e06878cb6d71d8349f423cd2f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+213                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+213-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookair2020/.gradle/caches/transforms-4/233bf64e06878cb6d71d8349f423cd2f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+214                android:value="androidx.startup" />
+214-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/macbookair2020/.gradle/caches/transforms-4/233bf64e06878cb6d71d8349f423cd2f/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+215        </provider>
+216
+217        <meta-data
+217-->[com.facebook.soloader:soloader:0.10.5] /Users/macbookair2020/.gradle/caches/transforms-4/af7c56a8ead6571d6ca06fd362b28104/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+218            android:name="com.facebook.soloader.enabled"
+218-->[com.facebook.soloader:soloader:0.10.5] /Users/macbookair2020/.gradle/caches/transforms-4/af7c56a8ead6571d6ca06fd362b28104/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+219            android:value="false" />
+219-->[com.facebook.soloader:soloader:0.10.5] /Users/macbookair2020/.gradle/caches/transforms-4/af7c56a8ead6571d6ca06fd362b28104/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+220    </application>
+221
+222</manifest>
